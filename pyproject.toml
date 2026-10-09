@@ -1,0 +1,11 @@
+[project]
+name = "alvesmld-web"
+version = "11.0.1"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115,<1.0",
+    "pydantic>=2.8,<3.0",
+]
+
+[tool.vercel]
+entrypoint = "api_server:app"
