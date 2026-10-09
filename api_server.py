@@ -11,7 +11,7 @@ from gerar_projeto_v10 import gerar_v10
 from gerar_projeto_natural import slug
 
 ROOT = Path(__file__).resolve().parent
-WEB = ROOT / "web"
+WEB = ROOT
 # Vercel permite escrita apenas em diretórios temporários como /tmp.
 OUT = Path("/tmp/projetos_web")
 OUT.mkdir(parents=True, exist_ok=True)
